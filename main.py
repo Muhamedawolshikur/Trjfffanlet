@@ -129,7 +129,7 @@ def callback_set_lang(call):
                 message_id=call.message.message_id,
                 text=f"🌐 <b>TRANSLATOR PRO 亗</b>\n"
                      f"{LINE}\n"
-                     f"📝 <b>Translation ({lang_name}):</b>\n"
+                     f"📝 <b>Translation ({lang_name}):</b>\n\n"
                      f"<code>{translated}</code>\n"
                      f"{LINE}\n"
                      f"👤 <b>By: @Officialcoders</b>",
